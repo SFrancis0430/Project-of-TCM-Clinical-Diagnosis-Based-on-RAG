@@ -1,0 +1,17 @@
+# 推荐 Python 3.10 ~ 3.12（3.14 部分依赖可能暂无预编译 wheel）
+streamlit>=1.36
+langgraph>=0.2
+langchain>=0.3
+langchain-core>=0.3
+langchain-openai>=0.2
+langchain-chroma>=0.1
+chromadb>=0.5
+# 本地 embedding（直接用 transformers 加载 text2vec，无外网也能跑）
+transformers>=4.40
+torch>=2.0
+safetensors>=0.4
+pydantic>=2.5
+python-dotenv>=1.0
+numpy>=1.26
+pandas>=2.0
+pytest>=8.0

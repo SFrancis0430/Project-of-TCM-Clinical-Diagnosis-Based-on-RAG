@@ -1,0 +1,39 @@
+# 环境变量 / 密钥
+.env
+
+# 向量库（体积大，可重建）
+medical_db/
+
+# 原始数据（体积大，含个人数据，不入库）
+_message_list.json
+*.zip
+*.docx
+*.pdf
+*.jpg
+*.png
+
+# 原始大作业目录
+data/
+附录/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 评测输出
+eval/output/
+
+# 其他项目目录（不入库）
+voice_video/
+
+# 缓存 / 本地配置
+.pytest_cache/
+*.pyc
+.claude/
